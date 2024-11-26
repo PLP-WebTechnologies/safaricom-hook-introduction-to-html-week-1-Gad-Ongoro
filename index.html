@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage with text, images, and links using Tailwind CSS for styling">
+    <title>Simple Webpage</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Simple Webpage</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="home" class="p-8">
+            <div class="container mx-auto">
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4">Welcome to My Simple Webpage</h2>
+                    <p class="mb-4">This is a simple webpage designed to showcase basic HTML tags along with images, links, and text. Tailwind CSS is used for styling the layout and design.</p>
+                    <img src="https://i.pinimg.com/originals/f5/36/01/f53601133f236d1cb167ac19f05a3d60.gif" alt="Placeholder Image" class="w-full rounded-lg mb-4">
+                    <p>For more information, visit the <a href="https://tailwindcss.com" class="text-blue-600 hover:text-blue-400">official Tailwind CSS website</a>.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="bg-gray-200 p-8">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-semibold mb-4">About This Webpage</h2>
+                <p>This webpage demonstrates the use of semantic HTML tags and Tailwind CSS for styling. It includes sections for navigation, content, and a footer, as well as a variety of HTML elements like lists, links, and images.</p>
+                <ul class="list-disc ml-5">
+                    <li>Text content using paragraphs and headings</li>
+                    <li>Links to external websites</li>
+                    <li>Images to make the content more engaging</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="p-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+                <p>If you have any questions, feel free to <a href="mailto:gadongoro1@gmail.com" class="text-blue-600 hover:text-blue-400">email me</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 My Simple Webpage. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
